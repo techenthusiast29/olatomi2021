@@ -240,7 +240,7 @@ p {
     width: 100px;
     border-radius: 50%;
     animation-name: twinkle-5;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     position: absolute;
     left: 50%;
@@ -267,7 +267,7 @@ video {
     border-radius: 50%;
     opacity: 0;
     animation-name: vid;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
