@@ -1,0 +1,418 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    max-width: 100%;
+    height: 100%;
+    font-size: 1.25em;
+    font-family: "Dance Script";
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(black, purple, #c8a2c8);
+    margin: 5px auto;
+}
+
+.olatomi {
+    font-family: "Great Vibes";
+    font-size: 1.5em;
+    background: transparent;
+    padding-top: 20px;
+}
+
+.time {
+    font-family: Lato;
+    font-size: 1em;
+    background: transparent;
+    padding-top: 20px;
+}
+
+.love {
+    background: transparent;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    transform: rotate(-45deg);
+    margin: auto;
+    box-shadow: -5px 5px 5px gold;
+    z-index: 1;
+}
+
+.love::after {
+    content: '';
+    left: 50%;
+    background: transparent;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 10px -5px 1px gold, 10px -10px 10px gold;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+.love::before {
+    content: '';
+    top: -50%;
+    background: transparent;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+    box-shadow: 10px -15px 10px gold;
+    z-index: -3;
+}
+
+.invitation {
+    position: absolute;
+    top: 35%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 300px;
+}
+
+.invitation p {
+    background: -webkit-repeating-linear-gradient(45deg, gold 0%, #f7e7069d 10%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    word-wrap: break-word;
+    width: 300px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    font-family: "Great Vibes";
+    font-weight: bold;
+}
+
+.stars1 {
+    background-color: white;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    animation-name: twinkle-1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.stars2 {
+    background-color: white;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    animation-name: twinkle-2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.stars3 {
+    background-color: white;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    animation-name: twinkle-3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.stars4 {
+    background-color: white;
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    animation-name: twinkle-4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.star1-1 {
+    margin-top: 15%;
+    margin-left: 30%;
+    background: radial-gradient(blue, gold, white, white);
+}
+
+.star1-2 {
+    margin-top: 5%;
+    margin-left: 70%;
+    background: radial-gradient(gold, white, white);
+}
+
+.star1-3 {
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+.star1-4 {
+    margin-top: 5%;
+    margin-left: 20%;
+    background: radial-gradient(gold, white, white);
+}
+
+.star2-1 {
+    margin-top: -15%;
+    margin-left: 40%;
+}
+
+.star2-2 {
+    margin-top: -25%;
+    margin-left: 90%;
+}
+
+.star2-3 {
+    margin-top: -15%;
+    margin-left: 10%;
+    background: radial-gradient(gold, white, white);
+}
+
+.star2-4 {
+    margin-top: -25%;
+    margin-left: 90%;
+}
+
+@keyframes twinkle-1 {
+    40% {
+        transform: scale(0.5);
+        opacity: 0.5;
+    }
+}
+
+@keyframes twinkle-2 {
+    70% {
+        transform: scale(0.3);
+        opacity: 0.3;
+    }
+}
+
+@keyframes twinkle-3 {
+    50% {
+        transform: scale(1.2);
+        opacity: 0.3;
+    }
+}
+
+@keyframes twinkle-4 {
+    60% {
+        transform: scale(0.2);
+        opacity: 0.3;
+    }
+}
+
+p {
+    font-family: "Dancing Script";
+    text-align: center;
+    margin-top: 0px;
+    background: linear-gradient(to right, purple, gold, #c8a2c8);
+}
+
+.moon {
+    background-color: transparent;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    animation-name: twinkle-5;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: 70%;
+    margin-top: 1%;
+    box-shadow: -5px 5px 0px #fff;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes twinkle-5 {
+    0% {
+        transform: scale(1);
+        box-shadow: -5px 10px 0px #fff
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: -75px 130px 0px #fff, -75px 130px 30px #fff
+    }
+}
+
+video {
+    position: absolute;
+    z-index: -1;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    opacity: 0;
+    animation-name: vid;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes vid {
+    0% {
+        top: 10px;
+        left: -5px;
+    }
+    45% {
+        opacity: 0;
+    }
+    100% {
+        top: 130px;
+        left: -75px;
+        opacity: 1
+    }
+}
+
+h1 {
+    background: -webkit-linear-gradient(purple, gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Dancing Script";
+}
+
+.mrs {
+    position: absolute;
+    display: inline-block;
+    top: 20%;
+    right: 65%;
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+.mr {
+    position: absolute;
+    display: block;
+    top: 75%;
+    left: 55%;
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+button {
+    font-size: 16px;
+    color: purple;
+    text-shadow: 0 0 2px #000;
+    background: transparent;
+    font-family: Lato;
+    display: block;
+    position: absolute;
+    padding: 10px 20px;
+    left: 50%;
+    top: 88%;
+    border: 1px solid purple;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px gold;
+    border-radius: 0 10px;
+}
+
+div.rsvp {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 90%;
+    display: none;
+}
+
+.rsvp-container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 20%;
+    margin: auto;
+}
+
+.rsvp-item {
+    font-size: 50px;
+}
+
+div.rsvp a {
+    font-size: 0.9em;
+    font-family: Lobster;
+    text-decoration: none;
+    padding-top: 15px;
+    background: -webkit-linear-gradient(purple, gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+button:focus+div.rsvp {
+    display: grid;
+}
+
+@media only screen and (max-width:800px) {
+    main {
+        width: 100%;
+    }
+    .love {
+        width: 200px;
+        height: 200px
+    }
+    .love::after {
+        width: 200px;
+        height: 200px
+    }
+    .mr {
+        position: absolute;
+        display: block;
+        top: 75%;
+        left: 50%;
+        margin: auto;
+        width: auto;
+        height: auto;
+    }
+    .love::before {
+        width: 200px;
+        height: 200px
+    }
+    html,
+    body {
+        font-size: 1.2em;
+        overflow-x: hidden;
+    }
+    .moon {
+        width: 75px;
+        height: 75px;
+    }
+    video {
+        width: 75px;
+        height: 75px;
+    }
+    .rsvp-container {
+        padding-left: 10%;
+    }
+    div.rsvp a {
+        font-size: 0.8em;
+    }
+}
