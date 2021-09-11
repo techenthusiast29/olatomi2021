@@ -4,16 +4,16 @@
 
 html,
 body {
-    max-width: 100%;
-    height: 100%;
+    max-width: 100vw;
+    height: 100vh;
     font-size: 1.25em;
     font-family: "Dance Script";
     overflow: hidden;
 }
 
 .bg {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background: linear-gradient(black, purple, #c8a2c8, purple, black);
 }
 
@@ -321,7 +321,7 @@ button {
     padding: 10px 20px;
     left: 50%;
     top: 86%;
-    border: 1px solid purple;
+    border: 1px solid rgba(255, 217, 0, 0.562);
     transform: translate(-50%, -50%);
     box-shadow: 5px 5px gold;
     border-radius: 0 10px;
@@ -339,7 +339,7 @@ div.rsvp {
     left: 0;
     right: 0;
     margin: auto;
-    top: 90%;
+    top: 84%;
     display: grid;
     opacity: 0;
 }
@@ -348,11 +348,11 @@ div.rsvp {
     width: 80%;
     grid-template-columns: auto auto;
     padding-left: 20%;
-    margin: auto;
+    margin: 0;
 }
 
 .rsvp-item {
-    font-size: 30px;
+    font-size: 4vw;
 }
 
 div.rsvp a {
@@ -370,33 +370,33 @@ button:focus+div.rsvp {
     opacity: 1;
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:1000px) {
     main {
-        width: 100%;
+        width: 100vw;
     }
     .love {
-        width: 200px;
-        height: 200px
+        width: 40vw;
+        height: 40vw
     }
     .love::after {
-        width: 200px;
-        height: 200px
+        width: 40vw;
+        height: 40vw;
     }
     .mr {
         position: absolute;
         display: block;
-        top: 70%;
+        top: 65%;
         right: 15%;
         margin: auto;
         width: auto;
     }
     .love::before {
-        width: 200px;
-        height: 200px
+        width: 40vw;
+        height: 40vw;
     }
     html,
     body {
-        font-size: 1.2em;
+        font-size: 4.5vw;
         overflow: hidden;
     }
     .moon {
@@ -411,9 +411,9 @@ button:focus+div.rsvp {
         padding-left: 10%;
     }
     div.rsvp a {
-        font-size: 0.8em;
+        font-size: 4.vw;
     }
     button {
-        top: 83%;
+        top: 80%;
     }
 }
