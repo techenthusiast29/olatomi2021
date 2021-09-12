@@ -5,10 +5,15 @@
 html,
 body {
     max-width: 100vw;
-    height: 100vh;
+    max-height: 100vh;
     font-size: 1.25em;
     font-family: "Dance Script";
     overflow: hidden;
+}
+
+main {
+    max-width: 100vw;
+    max-height: 100vh;
 }
 
 .bg {
@@ -32,8 +37,8 @@ body {
 
 .love {
     background: transparent;
-    width: 300px;
-    height: 300px;
+    width: 15vw;
+    height: 15vw;
     position: absolute;
     top: 34%;
     left: 0;
@@ -48,8 +53,8 @@ body {
     content: '';
     left: 50%;
     background: transparent;
-    width: 300px;
-    height: 300px;
+    width: 15vw;
+    height: 15vw;
     position: absolute;
     border-radius: 50%;
     box-shadow: 10px -5px 1px gold, 10px -10px 10px gold;
@@ -61,8 +66,8 @@ body {
     content: '';
     top: -50%;
     background: transparent;
-    width: 300px;
-    height: 300px;
+    width: 15vw;
+    height: 15vw;
     position: absolute;
     border-radius: 50%;
     transform: rotate(-45deg);
@@ -85,10 +90,12 @@ body {
     -webkit-text-fill-color: transparent;
     text-align: center;
     word-wrap: break-word;
-    width: 300px;
+    width: 12em;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
     font-family: "Great Vibes";
     font-weight: bold;
+    font-size: 0.9em;
+    margin: auto;
 }
 
 .stars1 {
@@ -296,18 +303,14 @@ h1 {
 
 .mrs {
     position: absolute;
-    top: 15%;
-    right: 65%;
-    margin: auto;
-    width: auto;
+    top: 15vh;
+    right: 60vw;
 }
 
 .mr {
     position: absolute;
-    top: 75%;
-    right: 35%;
-    margin: auto;
-    width: auto;
+    top: 50vh;
+    right: 25vw;
 }
 
 button {
@@ -321,7 +324,7 @@ button {
     position: absolute;
     padding: 5px 20px;
     left: 50%;
-    top: 83%;
+    top: 75vh;
     border: 1px solid rgba(255, 217, 0, 0.562);
     transform: translate(-50%, -50%);
     box-shadow: 5px 5px gold;
@@ -340,7 +343,7 @@ div.rsvp {
     left: 0;
     right: 0;
     margin: auto;
-    top: 84%;
+    top: 87%;
     display: grid;
     opacity: 0;
 }
@@ -372,29 +375,32 @@ button:focus+div.rsvp {
     opacity: 1;
 }
 
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width:600px) {
     * {
         box-sizing: border-box;
     }
     .love {
-        width: 40vw;
-        height: 40vw
+        width: 30vw;
+        height: 30vw;
     }
     .love::after {
-        width: 40vw;
-        height: 40vw;
-    }
-    .mr {
-        position: absolute;
-        display: block;
-        top: 65%;
-        right: 15%;
-        margin: auto;
-        width: auto;
+        width: 30vw;
+        height: 30vw;
     }
     .love::before {
-        width: 40vw;
-        height: 40vw;
+        width: 30vw;
+        height: 30vw;
+    }
+    .mrs1 {
+        position: absolute;
+        top: 12%;
+        right: 65%;
+    }
+    .mr {
+        display: inline-block;
+        position: absolute;
+        top: 55vh;
+        right: 15vw;
     }
     html,
     body {
@@ -416,6 +422,7 @@ button:focus+div.rsvp {
         font-size: 4.vw;
     }
     button {
-        top: 80%;
+        top: 80vh;
+        position: absolute;
     }
 }
