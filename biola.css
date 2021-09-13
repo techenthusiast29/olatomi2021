@@ -386,17 +386,16 @@ div.rsvp {
     left: 0;
     right: 0;
     margin: auto;
-    top: -887%;
+    top: 87%;
     display: grid;
     opacity: 0;
 }
 
 .rsvp-container {
-    width: 80%;
     grid-template-columns: 1fr 1fr;
-    padding-left: 10%;
+    padding-left: 1%;
     margin: 0;
-    grid-gap: 10px;
+    grid-gap: 1px;
 }
 
 .rsvp-item {
@@ -416,7 +415,6 @@ div.rsvp a {
 
 .rs-vp:focus+div.rsvp {
     opacity: 1;
-    top: 87%;
 }
 
 @media only screen and (max-width:600px) {
