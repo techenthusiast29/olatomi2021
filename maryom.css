@@ -1,0 +1,598 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100vw;
+    max-height: 100vh;
+    font-size: 1.25em;
+    font-family: "Dance Script";
+    overflow: hidden;
+}
+
+.footer p {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to right, #111, #222, gold, #222, #111);
+    color: white;
+    font-family: "Trebuchet MS";
+    text-align: center;
+    margin: auto;
+    font-size: 14px;
+    opacity: 0.75;
+    animation-name: footer;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes footer {
+    0% {
+        opacity: 1
+    }
+    50% {
+        opacity: 1
+    }
+    70% {
+        opacity: 0.3
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 97%;
+    background: linear-gradient(to right, #111, #222, gold, #222, #111);
+    color: white;
+    text-align: center;
+    font-family: "Trebuchet MS";
+    margin: auto;
+}
+
+main {
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.bg {
+    max-width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#000, #805300, #800020, #805300, #000);
+    background: url(media/maryom2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.olatomi {
+    font-family: "Great Vibes";
+    font-size: 1.5em;
+    background: transparent;
+    padding-top: 20px;
+}
+
+.time {
+    font-size: 1em;
+    background: transparent;
+    padding-top: 20px;
+}
+
+.love {
+    background: transparent;
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    top: 34%;
+    left: 0;
+    right: 0;
+    transform: rotate(-45deg);
+    margin: auto;
+    box-shadow: -5px 5px 5px gold;
+    z-index: 1;
+}
+
+.love::after {
+    content: '';
+    left: 50%;
+    background: transparent;
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 10px -5px 1px gold, 10px -10px 10px gold;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+.love::before {
+    content: '';
+    top: -50%;
+    background: transparent;
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+    box-shadow: 10px -15px 10px gold;
+    z-index: -3;
+}
+
+.invitation {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 320px;
+}
+
+.invitation p {
+    background: -webkit-repeating-linear-gradient(45deg, #fff 0%, white 10%, #fff 33%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    word-wrap: break-word;
+    width: 320px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    font-family: "Great Vibes";
+    font-weight: bold;
+    position: relative;
+    top: -10px;
+    right: 11px;
+}
+
+.stars1 {
+    background-color: white;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    animation-name: twinkle-1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.stars2 {
+    background-color: white;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    animation-name: twinkle-2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.stars3 {
+    background-color: white;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    animation-name: twinkle-3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.stars4 {
+    background-color: white;
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    animation-name: twinkle-4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.star1-1 {
+    margin-top: 15%;
+    margin-left: 30%;
+    background: radial-gradient(blue, gold, white, white);
+}
+
+.star1-2 {
+    margin-top: 5%;
+    margin-left: 70%;
+    background: radial-gradient(gold, white, white);
+}
+
+.star1-3 {
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+.star1-4 {
+    margin-top: 5%;
+    margin-left: 20%;
+    background: radial-gradient(gold, white, white);
+}
+
+.star2-1 {
+    margin-top: -15%;
+    margin-left: 40%;
+}
+
+.star2-2 {
+    margin-top: -25%;
+    margin-left: 90%;
+}
+
+.star2-3 {
+    margin-top: -15%;
+    margin-left: 10%;
+    background: radial-gradient(gold, white, white);
+}
+
+.star2-4 {
+    margin-top: -25%;
+    margin-left: 90%;
+}
+
+@keyframes twinkle-1 {
+    40% {
+        transform: scale(0.5);
+        opacity: 0.5;
+    }
+}
+
+@keyframes twinkle-2 {
+    70% {
+        transform: scale(0.3);
+        opacity: 0.3;
+    }
+}
+
+@keyframes twinkle-3 {
+    50% {
+        transform: scale(1.2);
+        opacity: 0.3;
+    }
+}
+
+@keyframes twinkle-4 {
+    60% {
+        transform: scale(0.2);
+        opacity: 0.3;
+    }
+}
+
+p {
+    font-family: "Dancing Script";
+    text-align: center;
+    margin-top: 0;
+    background: linear-gradient(to right, purple, gold, #c8a2c8);
+}
+
+.moon {
+    background-color: #fff;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    animation-name: twinkle-5, twinkle-7;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes twinkle-5 {
+    0% {
+        transform: scale(0);
+        opacity: 0.2;
+    }
+    100% {
+        transform: scale(0.7);
+        opacity: 0.1;
+    }
+}
+
+@keyframes twinkle-7 {
+    10% {
+        transform: scale(0);
+        opacity: 0.9;
+        background: gold;
+    }
+    80% {
+        transform: scale(0.5);
+        opacity: 0.7;
+        background: #800020;
+    }
+}
+
+img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    opacity: 0;
+    animation-name: vid;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes vid {
+    0% {
+        top: 10px;
+        left: -5px;
+    }
+    45% {
+        opacity: 0;
+    }
+    100% {
+        top: 130px;
+        left: -75px;
+        opacity: 1
+    }
+}
+
+h1 {
+    background: -webkit-linear-gradient(purple, gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Dancing Script";
+}
+
+.mrs {
+    position: absolute;
+    top: 15%;
+    right: 65%;
+    margin: auto;
+    width: auto;
+}
+
+.mr {
+    position: absolute;
+    top: 75%;
+    right: 35%;
+    margin: auto;
+    width: auto;
+}
+
+div.map {
+    border: 0;
+    position: absolute;
+    top: 55%;
+    left: -555%;
+    opacity: 0;
+    display: block;
+}
+
+.dir {
+    border: 1px solid #000000;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    background: -webkit-linear-gradient(purple, gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.7);
+    font-family: Lato;
+    border: 1px solid rgba(255, 217, 0, 0.562);
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px gold;
+    border-radius: 0 10px;
+    position: absolute;
+    padding: 5px 2px;
+    left: 65%;
+    top: 85%;
+}
+
+.dir:active {
+    border-radius: 10px 0;
+    background-color: transparent;
+    box-shadow: 0px 1px gold;
+    transform: translateY(4px) translate(-50%, -50%);
+}
+
+.dir:focus+div.map {
+    opacity: 1;
+    left: 5%;
+}
+
+.rs-vp {
+    font-size: 20px;
+    background: -webkit-linear-gradient(white, gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.7);
+    font-family: Lato;
+    display: block;
+    position: absolute;
+    padding: 5px 20px;
+    left: 35%;
+    top: 85%;
+    border: 1px solid rgba(255, 217, 0, 0.562);
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px gold;
+    border-radius: 0 10px;
+}
+
+.rs-vp:active {
+    border-radius: 10px 0;
+    background-color: transparent;
+    box-shadow: 0px 1px gold;
+    transform: translateY(4px) translate(-50%, -50%);
+}
+
+div.rsvp {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 87%;
+    display: grid;
+    opacity: 0;
+}
+
+.rsvp-container {
+    grid-template-columns: 1fr 1fr;
+    padding-left: 1%;
+    margin: 0;
+    grid-gap: 1px;
+}
+
+.rsvp-item {
+    font-size: 4vw;
+}
+
+div.rsvp a {
+    font-size: 0.93em;
+    font-family: Lato;
+    text-decoration: none;
+    padding-top: 5px;
+    background: -webkit-linear-gradient(purple, gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+.rs-vp:focus+div.rsvp {
+    opacity: 1;
+    top: 87%;
+}
+
+.whatsapp_float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    left: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    animation: pop 30s infinite;
+}
+
+@keyframes pop {
+    0% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    94% {
+        opacity: 0;
+    }
+}
+
+.msg_float {
+    position: fixed;
+    bottom: -22px;
+    left: 31px;
+    color: #205685;
+    text-align: center;
+    font-size: 22px;
+    text-shadow: 1px 1px gold;
+    z-index: 100;
+    font-family: Akronim;
+    animation: pop 30s infinite;
+}
+
+.my_whatsapp_float {
+    margin-top: 16px;
+}
+
+@media only screen and (max-width:600px) {
+    * {
+        box-sizing: border-box;
+    }
+    .footer p {
+        background: linear-gradient(to right, #111, #222, gold, #222, #111);
+        color: white;
+        text-align: center;
+        font-family: "Trebuchet MS";
+    }
+    .footer {
+        background: linear-gradient(to right, #111, #222, gold, #222, #111);
+        color: white;
+        text-align: center;
+        font-family: "Trebuchet MS";
+    }
+    .love {
+        width: 47.5vw;
+        height: 47.5vw;
+    }
+    .love::after {
+        width: 47.5vw;
+        height: 47.5vw;
+    }
+    .mr {
+        position: absolute;
+        display: block;
+        top: 65%;
+        right: 15%;
+        margin: auto;
+        width: auto;
+    }
+    .love::before {
+        width: 47.5vw;
+        height: 47.5vw;
+    }
+    html,
+    body {
+        font-size: 4.9vw;
+        overflow: hidden;
+    }
+    .moon {
+        width: 75px;
+        height: 75px;
+    }
+    img {
+        width: 75px;
+        height: 75px;
+    }
+    .rsvp-container {
+        padding-left: 10%;
+    }
+    div.rsvp a {
+        font-size: 4.vw;
+    }
+    button {
+        top: 80%;
+    }
+    div.map {
+        transform: scale(1);
+    }
+    .dir {
+        top: 82%;
+    }
+    .rs-vp {
+        top: 82%;
+    }
+}
