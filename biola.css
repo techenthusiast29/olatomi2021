@@ -75,12 +75,21 @@ main {
 @keyframes slide {
     25% {
         background: url(media/6.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
     50% {
         background: url(media/s3.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
     75% {
         background: url(media/s8.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 }
 
