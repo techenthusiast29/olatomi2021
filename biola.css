@@ -68,7 +68,7 @@ main {
     background-position: center;
     background-size: cover;
     animation-name: slide;
-    animation-duration: 60s;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
  
 }
