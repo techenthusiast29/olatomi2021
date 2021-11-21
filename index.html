@@ -32,13 +32,13 @@
 
         </div>
         <!--iframe src="media/silence.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></!--iframe-->
-        <audio autoplay>
+        <audio id="audioID" loop>
 <source src="media/audio.mp3" type="audio/mp3">
 </audio>
         <br>
         <div>
-            <h1 class="mrs font-effect-shadow-multiple">Muhammed</h1>
-            <h1 class="mr font-effect-shadow-multiple">Abeebah</h1>
+            <h1 class="mr font-effect-shadow-multiple">Muhammed</h1>
+            <h1 class="mrs font-effect-shadow-multiple">Abeebah</h1>
         </div>
         <div class="invitation">
             <p>Request the pleasure of your company to celebrate our wedding
@@ -103,7 +103,9 @@
         </div>
 
     </main>
-
+    <script>
+        var myaudio = document.getElementById("audioID").autoplay = true;
+    </script>
 </body>
 
 </html>

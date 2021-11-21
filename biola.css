@@ -63,7 +63,7 @@ main {
     max-width: 100vw;
     height: 100vh;
     background: linear-gradient(#000, #805300, #800020, #805300, #000);
-    background: url(media/c5.jpeg);
+    background: url(media/s5.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -132,7 +132,7 @@ main {
 }
 
 .invitation p {
-    background: -webkit-repeating-linear-gradient(45deg, #fff 0%, white 10%, #fff 33%);
+    background: -webkit-repeating-linear-gradient(45deg, gold 0%, gold 10%, gold 33%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
@@ -361,7 +361,7 @@ h1 {
     font-family: "Dancing Script";
 }
 
-.mrs {
+.mr {
     position: absolute;
     top: 15%;
     right: 55%;
@@ -369,7 +369,7 @@ h1 {
     width: auto;
 }
 
-.mr {
+.mrs {
     position: absolute;
     top: 75%;
     right: 35%;
@@ -552,7 +552,7 @@ div.rsvp a {
         width: 47.5vw;
         height: 47.5vw;
     }
-    .mr {
+    .mrs {
         position: absolute;
         display: block;
         top: 65%;
