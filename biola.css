@@ -68,19 +68,24 @@ main {
     background-position: center;
     background-size: cover;
     animation-name: slide;
-    animation-duration: 120s;
+    animation-duration: 60s;
     animation-iteration-count: infinite;
  
 }
 
 @keyframes slide {
+    24% {
+        background: url(media/c2.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
     25% {
         background: url(media/6.jpeg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
-    
     49% {
         background: url(media/6.jpeg);
         background-repeat: no-repeat;
