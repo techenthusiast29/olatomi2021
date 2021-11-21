@@ -68,7 +68,7 @@ main {
     background-position: center;
     background-size: cover;
     animation-name: slide;
-    animation-duration: 30s;
+    animation-duration: 60s;
     animation-iteration-count: infinite;
  
 }
@@ -141,13 +141,13 @@ main {
         background-size: cover;
     }
     60% {
-        background: url(media/s3.jpeg);
+        background: url(media/s8.jpeg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
     69% {
-        background: url(media/s3.jpeg);
+        background: url(media/s8.jpeg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
