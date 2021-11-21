@@ -176,6 +176,18 @@ main {
         background-position: center;
         background-size: cover;
     }
+    90% {
+        background: url(media/7.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    99% {
+        background: url(media/7.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
 }
 
 .olatomi {
