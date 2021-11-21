@@ -70,6 +70,7 @@ main {
     animation-name: slide;
     animation-duration: 60s;
     animation-iteration-count: infinite;
+    transition
 }
 
 @keyframes slide {
@@ -78,6 +79,7 @@ main {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        animation-name: fade;
     }
     50% {
         background: url(media/s3.jpeg);
@@ -86,7 +88,7 @@ main {
         background-size: cover;
     }
     75% {
-        background: url(media/s8.jpeg);
+        background: url(media/s9.jpeg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
