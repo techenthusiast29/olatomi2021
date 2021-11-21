@@ -74,32 +74,104 @@ main {
 }
 
 @keyframes slide {
-    24% {
+    9% {
         background: url(media/c2.jpeg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
-    25% {
+    10% {
+        background: url(media/s5.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    19% {
+        background: url(media/s5.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+   20% {
         background: url(media/6.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    29% {
+        background: url(media/6.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    30% {
+        background: url(media/s9.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    39% {
+        background: url(media/s9.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+   40% {
+        background: url(media/s1.jpeg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
     49% {
-        background: url(media/6.jpeg);
+        background: url(media/s1.jpeg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
     50% {
-        background: url(media/s9.jpeg);
+        background: url(media/9.jpeg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
-    75% {
-        background: url(media/s9.jpeg);
+    59% {
+        background: url(media/9.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    60% {
+        background: url(media/s3.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    69% {
+        background: url(media/s3.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    70% {
+        background: url(media/s6.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    79% {
+        background: url(media/s6.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    80% {
+        background: url(media/c4.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    89% {
+        background: url(media/c4.jpeg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
