@@ -32,9 +32,7 @@
 
         </div>
         <!--iframe src="media/silence.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></!--iframe-->
-        <audio id="audioID" loop>
-<source src="media/audio.mp3" type="audio/mp3">
-</audio>
+
         <br>
         <div>
             <h1 class="mr font-effect-shadow-multiple">Muhammed</h1>
@@ -44,7 +42,15 @@
             <p>Request the pleasure of your company to celebrate our wedding
                 <br><br>On Saturday 11th December 2021 <br>@<br>Dove Excellent Event Palace<br>Iwo Osun State</p>
         </div>
-        <button class="rs-vp">RSVP</button>
+        <div id="audioShow">
+            <audio class="audio" controls>
+        <source src="media/audio.mp3" type="audio/mp3">
+        </audio>
+            <p style="font-size:18px; background:transparent; color:gold; text-shadow:2px 2px black">Press Play</p>
+        </div>
+
+
+        <button class="rs-vp" onclick="showOrHideDiv()">RSVP</button>
         <div class="rsvp rsvp-container">
             <a href="tel:08101042984" class="rsvp-item">Sekinat Abidemi</a>
             <a href="tel:08032923988" class="rsvp-item">Mrs Lateefat A.</a>
@@ -104,7 +110,14 @@
 
     </main>
     <script>
-        var myaudio = document.getElementById("audioID").autoplay = true;
+        function showOrHideDiv() {
+            var v = document.getElementById("audioShow");
+            if (v.style.display === "none") {
+                v.style.display = "block";
+            } else {
+                v.style.display = "none";
+            }
+        }
     </script>
 </body>
 
