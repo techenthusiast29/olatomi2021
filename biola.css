@@ -299,7 +299,7 @@ main {
     -webkit-text-fill-color: transparent;
     text-align: center;
     word-wrap: break-word;
-    width: 320px;
+    width: 310px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
     font-family: "Great Vibes";
     font-weight: bold;
@@ -718,8 +718,8 @@ div.rsvp a {
     .mrs {
         position: absolute;
         display: block;
-        top: 65%;
-        right: 15%;
+        top: 62%;
+        right: 10%;
         margin: auto;
         width: auto;
     }
@@ -731,7 +731,7 @@ div.rsvp a {
         width: 100px;
         margin: auto;
         display: block;
-        margin-top: 93%;
+        margin-top: 94%;
     }
     html,
     body {
