@@ -1,5 +1,11 @@
 * {
     box-sizing: border-box;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -moz-backface-visibility: hidden;
+    -moz-tap-highlight-color: transparent;
+    -o-backface-visibility: hidden;
+    -o-tap-highlight-color: transparent;
 }
 
 body {
@@ -70,9 +76,10 @@ main {
     max-width: 100vw;
     height: 100vh;
     background: linear-gradient(#000, #805300, #800020, #805300, #000);
-    background: url(media/c2.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url(media/c2.jpeg) no-repeat left center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     animation-name: slide;
     animation-duration: 60s;
@@ -81,117 +88,136 @@ main {
 
 @keyframes slide {
     9% {
-        background: url(media/c2.jpeg);
-        background-repeat: no-repeat;
-        background-position: center;
+        background: url(media/c2.jpeg) no-repeat left center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     10% {
-        background: url(media/s5.jpeg);
-        background-repeat: no-repeat;
-        background-position: center;
+        background: url(media/s5.jpeg) no-repeat left center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     19% {
-        background: url(media/s5.jpeg);
-        background-repeat: no-repeat;
-        background-position: center;
+        background: url(media/s5.jpeg) no-repeat left center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     20% {
-        background: url(media/6.jpeg);
-        background-repeat: no-repeat;
-        background-position: center;
+        background: url(media/6.jpeg) no-repeat left center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     29% {
-        background: url(media/6.jpeg);
-        background-repeat: no-repeat;
-        background-position: center;
+        background: url(media/6.jpeg) no-repeat left center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     30% {
-        background: url(media/s9.jpeg);
-        background-repeat: no-repeat;
-        background-position: center;
+        background: url(media/s9.jpeg) no-repeat left center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     39% {
-        background: url(media/s9.jpeg);
-        background-repeat: no-repeat;
-        background-position: center;
+        background: url(media/s9.jpeg) no-repeat left center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     40% {
-        background: url(media/s1.jpeg);
-        background-repeat: no-repeat;
-        background-position: center;
+        background: url(media/s1.jpeg) no-repeat left center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     49% {
-        background: url(media/s1.jpeg);
-        background-repeat: no-repeat;
-        background-position: center;
+        background: url(media/s1.jpeg) no-repeat left center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     50% {
-        background: url(media/8.jpeg);
-        background-repeat: no-repeat;
-        background-position: center;
+        background: url(media/8.jpeg) no-repeat left center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     59% {
-        background: url(media/8.jpeg);
-        background-repeat: no-repeat;
-        background-position: center;
+        background: url(media/8.jpeg) no-repeat left center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     60% {
-        background: url(media/s8.jpeg);
-        background-repeat: no-repeat;
-        background-position: center;
+        background: url(media/s8.jpeg) no-repeat left center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     69% {
-        background: url(media/s8.jpeg);
-        background-repeat: no-repeat;
-        background-position: center;
+        background: url(media/s8.jpeg) no-repeat left center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     70% {
-        background: url(media/s4.jpeg);
-        background-repeat: no-repeat;
-        background-position: center;
+        background: url(media/s4.jpeg) no-repeat left center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     79% {
-        background: url(media/s4.jpeg);
-        background-repeat: no-repeat;
-        background-position: center;
+        background: url(media/s4.jpeg) no-repeat left center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     80% {
-        background: url(media/c4.jpeg);
-        background-repeat: no-repeat;
-        background-position: center;
+        background: url(media/c4.jpeg) no-repeat left center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     89% {
-        background: url(media/c4.jpeg);
-        background-repeat: no-repeat;
-        background-position: center;
+        background: url(media/c4.jpeg) no-repeat left center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     90% {
-        background: url(media/7.jpeg);
-        background-repeat: no-repeat;
-        background-position: center;
+        background: url(media/7.jpeg) no-repeat left center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
     99% {
-        background: url(media/7.jpeg);
-        background-repeat: no-repeat;
-        background-position: center;
+        background: url(media/7.jpeg) no-repeat left center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
 }
@@ -262,15 +288,25 @@ main {
     background: -webkit-repeating-linear-gradient(45deg, gold 0%, gold 10%, gold 33%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background: -moz-repeating-linear-gradient(45deg, gold 0%, gold 10%, gold 33%);
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    background: -o-repeating-linear-gradient(45deg, gold 0%, gold 10%, gold 33%);
+    -o-background-clip: text;
+    -o-text-fill-color: transparent;
+    background: repeating-linear-gradient(45deg, gold 0%, gold 10%, gold 33%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-align: center;
     word-wrap: break-word;
-    width: 320px;
+    width: 360px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
     font-family: "Great Vibes";
     font-weight: bold;
     position: relative;
     top: -10px;
     right: 7px;
+    z-index: 100;
 }
 
 .stars1 {
@@ -341,12 +377,18 @@ main {
     margin-top: 15%;
     margin-left: 30%;
     background: radial-gradient(blue, gold, white, white);
+    background: -webkit-radial-gradient(blue, gold, white, white);
+    background: -moz-radial-gradient(blue, gold, white, white);
+    background: -o-radial-gradient(blue, gold, white, white);
 }
 
 .star1-2 {
     margin-top: 5%;
     margin-left: 70%;
     background: radial-gradient(gold, white, white);
+    background: -webkit-radial-gradient(gold, white, white);
+    background: -moz-radial-gradient(gold, white, white);
+    background: -o-radial-gradient(gold, white, white);
 }
 
 .star1-3 {
@@ -358,6 +400,9 @@ main {
     margin-top: 5%;
     margin-left: 20%;
     background: radial-gradient(gold, white, white);
+    background: -webkit-radial-gradient(gold, white, white);
+    background: -moz-radial-gradient(gold, white, white);
+    background: -o-radial-gradient(gold, white, white);
 }
 
 .star2-1 {
@@ -374,6 +419,9 @@ main {
     margin-top: -15%;
     margin-left: 10%;
     background: radial-gradient(gold, white, white);
+    background: -webkit-radial-gradient(gold, white, white);
+    background: -moz-radial-gradient(gold, white, white);
+    background: -o-radial-gradient(gold, white, white);
 }
 
 .star2-4 {
@@ -414,10 +462,13 @@ p {
     text-align: center;
     margin-top: 0;
     background: linear-gradient(to right, purple, gold, #c8a2c8);
+    background: -webkit-linear-gradient(to right, purple, gold, #c8a2c8);
+    background: -moz-linear-gradient(to right, purple, gold, #c8a2c8);
+    background: -o-linear-gradient(to right, purple, gold, #c8a2c8);
 }
 
 .moon {
-    background-color: #fff;
+    background-color: #777;
     height: 100px;
     width: 100px;
     border-radius: 50%;
@@ -486,6 +537,12 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: "Dancing Script";
+    background: -moz-linear-gradient(purple, gold);
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    background: -o-linear-gradient(purple, gold);
+    -o-background-clip: text;
+    -o-text-fill-color: transparent;
 }
 
 .mr {
@@ -521,15 +578,22 @@ div.map {
     background: -webkit-linear-gradient(purple, gold);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background: -moz-linear-gradient(purple, gold);
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    background: -o-linear-gradient(purple, gold);
+    -o-background-clip: text;
+    -o-text-fill-color: transparent;
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.7);
     font-family: Lato;
     border: 1px solid rgba(255, 217, 0, 0.562);
     transform: translate(-50%, -50%);
     box-shadow: 2px 2px gold;
     border-radius: 0 10px;
-    position: absolute;
+    margin: auto;
+    position: relative;
     padding: 5px 2px;
-    left: 80%;
+    left: 50%;
     top: 85%;
 }
 
@@ -658,15 +722,27 @@ div.rsvp a {
 @media only screen and (max-width:600px) {
     * {
         box-sizing: border-box;
+        -webkit-backface-visibility: hidden;
+        -webkit-tap-highlight-color: transparent;
+        -moz-backface-visibility: hidden;
+        -moz-tap-highlight-color: transparent;
+        -o-backface-visibility: hidden;
+        -o-tap-highlight-color: transparent;
     }
     .footer p {
         background: linear-gradient(to right, #111, #222, gold, #222, #111);
+        background: -webkit-linear-gradient(to right, #111, #222, gold, #222, #111);
+        background: -moz-linear-gradient(to right, #111, #222, gold, #222, #111);
+        background: -o-linear-gradient(to right, #111, #222, gold, #222, #111);
         color: white;
         text-align: center;
         font-family: "Trebuchet MS";
     }
     .footer {
         background: linear-gradient(to right, #111, #222, gold, #222, #111);
+        background: -webkit-linear-gradient(to right, #111, #222, gold, #222, #111);
+        background: -moz-linear-gradient(to right, #111, #222, gold, #222, #111);
+        background: -o-linear-gradient(to right, #111, #222, gold, #222, #111);
         color: white;
         text-align: center;
         font-family: "Trebuchet MS";
@@ -695,7 +771,7 @@ div.rsvp a {
         width: 100px;
         margin: auto;
         display: block;
-        margin-top: 111%;
+        margin-top: 93%;
     }
     html,
     body {
