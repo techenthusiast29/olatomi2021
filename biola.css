@@ -299,13 +299,13 @@ main {
     -webkit-text-fill-color: transparent;
     text-align: center;
     word-wrap: break-word;
-    width: 310px;
+    width: 300px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
     font-family: "Great Vibes";
     font-weight: bold;
     position: relative;
     top: -10px;
-    right: 7px;
+    right: 0px;
     z-index: 100;
 }
 
