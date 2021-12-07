@@ -398,7 +398,7 @@ main {
     margin: auto;
     box-shadow: -2px 2px 2px gold;
     z-index: 1;
-    animation: glow 30s infinite;
+    animation: glow 3s infinite;
 }
 
 @keyframes glow {
@@ -430,7 +430,7 @@ main {
     box-shadow: 2px -2px 2px gold, 2px -2px 2px gold;
     transform: rotate(45deg);
     z-index: -1;
-    animation: glow1 30s infinite;
+    animation: glow1 3s infinite;
 }
 
 .love::before {
@@ -444,7 +444,7 @@ main {
     transform: rotate(-45deg);
     box-shadow: 2px -2px 2px gold;
     z-index: -3;
-    animation: glow1 30s infinite;
+    animation: glow1 3s infinite;
 }
 
 @keyframes glow1 {
